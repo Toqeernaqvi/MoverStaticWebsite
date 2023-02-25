@@ -1,0 +1,68 @@
+.services__section {
+    background-color: rgba(221, 221, 221, 0.76);
+}
+
+
+.services__img {
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/workers.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+
+.services__h {
+    font-size: 3rem;
+}
+
+
+/* --------------------------------------- */
+
+/* ----- Categories ----- */
+
+/* --------------------------------------- */
+
+
+.services h1 {
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.services__container { 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 6rem;
+}
+
+.services__left {
+    margin-left: 2rem;
+}
+
+.services__right {
+    margin-right: 2rem;
+}
+
+.services__left p {
+    margin: 1rem 0 3rem;
+    font-size: 1.2rem;
+}
+
+.services__right h5 {
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .services__container { 
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+.c1 {
+    background-color: rgba(221, 221, 221, 0.76);
+    padding: 4rem;
+}

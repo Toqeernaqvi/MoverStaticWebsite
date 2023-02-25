@@ -1,0 +1,89 @@
+.achievements {
+    margin-top: 3rem;
+}
+
+.achievements__container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5rem;
+}
+
+.about__achievements-right p {
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achievements__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievements__card {
+    background-color: #FD841F;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.uil-users-alt {
+    font-size: 4rem;
+}
+
+.uil-truck {
+    font-size: 4rem;
+}
+
+.uil-plus-square{
+    font-size: 4rem;
+}
+
+.li {
+    list-style-type: disc;
+    margin-top: 1rem;
+}
+
+.last-child {
+    margin-bottom: 1rem;
+}
+
+.precaution__h {
+    margin-top: 1rem;
+}
+
+.precaution__h2 {
+    color: #FD841F;
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width:1024px) {
+    .achievements {
+        margin-top: 2rem;
+    }
+
+    .achievements__container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .about__achievements-left {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width:620px) {
+    .achievements__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+
+@media screen and (max-width:455px) {
+    .achievements__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
