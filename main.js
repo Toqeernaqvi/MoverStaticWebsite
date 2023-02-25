@@ -55,7 +55,7 @@ const closeNav = () => {
 
 
 closeBtn.addEventListener('click', closeNav)
-
+// clear form after submit
 window.onbeforeunload = () => {
     for(const form of document.getElementsByTagName('form')) {
       form.reset();
